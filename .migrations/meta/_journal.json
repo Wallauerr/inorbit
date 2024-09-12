@@ -8,6 +8,13 @@
       "when": 1725935704731,
       "tag": "0000_cold_diamondback",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1726100601097,
+      "tag": "0001_fearless_hannibal_king",
+      "breakpoints": true
     }
   ]
 }
