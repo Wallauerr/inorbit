@@ -1,10 +1,12 @@
-import fastify from 'fastify';
+import fastify from 'fastify'
 
 const app = fastify()
 
-app.listen({
-  port: 3333,
-}).then(() => {
-  console.log(`Server listening on port ${3333}`);
-  console.log('Press Ctrl+C to exit');
-});
+app
+  .listen({
+    port: 3333,
+  })
+  .then(() => {
+    console.log(`Server listening on port ${3333}`)
+    console.log('Press Ctrl+C to exit')
+  })
